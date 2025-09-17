@@ -1,23 +1,21 @@
 #AK 6th Update Calculator
 
-def user_expences(amount_per_month):
-    float (input("What is your monthly "+ amount_per_month +"?"))
-    
+def get_user_input(question):
+    return float (input(question))
 
-income = user_expences("income")
-rent = user_expences("rent")
-groceries = user_expences("groceries")
-utilities = user_expences("utilities")
-transportation = user_expences("transportation")
+def calculate_expense_percentage(income, expense):
+    return (expense / income) * 100
 
-def percent(number):
-    return round (number / income * 100,2)
+income = get_user_input("What is your monthly income? ")
+rent = get_user_input("What is your monthly rent? ")
+groceries = get_user_input("What is your monthly groceries? ")
+utilities = get_user_input("What is your monthly utilities? ")
+transportation = get_user_input("What is your monthly transportation? ")
 
-percent_rent = percent(rent)
-percent_groceries = percent(groceries)
-percent_utilities = percent(utilities)
-percent_transportation = percent(transportation)
-
+percent_rent = calculate_expense_percentage(income, rent)
+percent_groceries = calculate_expense_percentage(income, groceries)
+percent_utilities = calculate_expense_percentage(income, utilities)
+percent_transportation = calculate_expense_percentage(income, transportation)
 
 savings = income*.1
 spending = income-(rent + groceries + utilities + transportation + savings)

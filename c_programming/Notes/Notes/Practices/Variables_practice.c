@@ -1,15 +1,5 @@
 // Ak 6th Variables practice
 #include <stdio.h>
-//your name
-//a number between 1 and 10
-//a GPA
-//what you had for breakfast 
-//your favorite color
-//the school name
-//the year
-//your eye color
-//your age
-//your favorite subject in school
 
 int main (void){
 char name []= {"Annalise"}; 
@@ -21,16 +11,16 @@ char school [] = {"UCAS"};
 int year = 2025;
 char eye_color [] = {"hazel"};
 int age = 15;
-char subject [] ={"chemistry"}
+char subject [] ={"chemistry"};
 
 printf("%s",name);
 printf("%d",number);
 printf("%f",gpa);
-printf("%s",name);
-printf("%s",name);
-printf("%s",name);
-printf("%d",number);
-printf("%s",name);
-printf("%d",number);
-printf("%s",name);
+printf("%s",breakfast);
+printf("%s",color);
+printf("%s",school);
+printf("%d",year);
+printf("%s",eye_color);
+printf("%d",age);
+printf("%s",subject);
 }

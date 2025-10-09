@@ -10,5 +10,5 @@ int main(void){
     scanf("%s",&name);
     strcat("***",name);
     strcat(name,"***");
-    printf("%s",name);
+    printf("%s\n",name);
 }

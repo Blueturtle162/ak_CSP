@@ -5,10 +5,14 @@
 
 int main(void){
     
-    char name [50];
+    char input[50];
+    char output[50];
+
     printf("What is your first name?\n");
-    scanf("%s",&name);
-    strcat("***",name);
-    strcat(name,"***");
-    printf("%s\n",name);
+    scanf("%s", input);
+    strcat(output,"***");
+    strcat(output, input);
+    strcat(output,"***");
+    printf("%s\n",output);
+    
 }

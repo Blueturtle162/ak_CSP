@@ -1,14 +1,5 @@
 //AK 6th Silly Sentances
-/*word_1 = input ("Give me an ajective.").strip().lower()
-word_2 = input ("Give me an animal.").strip().lower()
-word_3 = input ("Give me an animal.").strip().lower()
-word_4 = input ("Give me an noun.").strip().lower()
-word_5 = input ("Give me an ajective.").strip().lower()
-word_6 = input ("Give me an noun.").strip().lower()
-word_7 = input ("Give me an ajective.").strip().lower()
-word_8 = input ("Give me an ajective.").strip().lower()
-word_9 = input ("Give me an noun.").strip().lower()
-*/
+
 #include <stdio.h>
 #include <string.h>
 int main(void){
